@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.TransactionsFragment"
+    android:background="@drawable/background_color"
+    android:id="@+id/transactions_frame_layout_container">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/transactions_fab_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="@android:color/transparent"
+        android:layout_gravity="end|top"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/ic_search_black_24dp" />
+
+    <ListView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/transactions_lv_operations"
+    >
+
+    </ListView>
+
+<Button
+    android:id="@+id/transactions_btn_show_statistics"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|center"
+    android:background="@color/end_dark_blue"
+    android:text="@string/transactions_show_statistics"
+    android:textAlignment="center"
+    android:textAllCaps="true"
+    android:textColor="@color/white"
+    android:textSize="14sp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"/>
+
+</FrameLayout>

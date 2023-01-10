@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sky_blue"
+    android:weightSum="2">
+
+    <TextView
+        android:id="@+id/welcome_tv_splash_screen"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/logo_iv_splash_screen"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingTop="50dp"
+        android:text="@string/welcome_message_splash_screen"
+        android:textSize="32dp"
+        android:textStyle="" />
+
+
+    <ImageView
+        android:id="@+id/logo_iv_splash_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="119dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:src="@drawable/internet_banking" />
+
+</LinearLayout>

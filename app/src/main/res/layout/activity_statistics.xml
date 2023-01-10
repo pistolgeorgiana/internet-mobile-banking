@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/pie_chart_my_transactions"
+    android:background="#0099cc"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/statistics_plus_amount"
+        android:textSize="20sp"
+        android:textColor="@color/darkGreen"
+        android:textAlignment="center"
+        android:keepScreenOn="true"
+        />
+
+    <TextView
+        android:id="@+id/statistics_minus_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/mediumRed"
+        android:textSize="20sp" />
+</RelativeLayout>

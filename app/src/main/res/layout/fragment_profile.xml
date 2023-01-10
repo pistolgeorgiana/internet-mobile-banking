@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProfileFragment"
+    android:background="@drawable/background_color">
+
+    <Button
+        android:id="@+id/profile_btn_banks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="220dp"
+        android:paddingLeft="10dp"
+        android:background="@color/end_dark_blue"
+        android:drawableStart="@drawable/ic_location_city_black_24dp"
+        android:text="@string/profile_banks" />
+
+    <Button
+        android:id="@+id/profile_btn_locations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:background="@color/end_dark_blue"
+        android:drawableStart="@drawable/ic_location_on_black_24dp"
+        android:text="@string/profile_locations_maps"
+        android:textSize="12sp"/>
+
+    <ImageView
+        android:id="@+id/profile_iv_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="top|center"
+        android:src="@drawable/iv_src_profile_people" />
+
+    <ExpandableListView
+        android:id="@+id/profile_elv_vaults"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/profile_iv_avatar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/light_gray"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="0.5dp"
+        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft" >
+
+    </ExpandableListView>
+
+</RelativeLayout>

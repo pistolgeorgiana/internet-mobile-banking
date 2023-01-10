@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">InternetBanking</string>
+    <string name="menu_accounts">Accounts</string>
+    <string name="menu_transactions">Transactions</string>
+    <string name="menu_beneficiaries">Beneficiaries</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_about">About</string>
+    <string name="welcome_message_splash_screen">Welcome!</string>
+    <string name="add_account_amount">Amount</string>
+    <string name="add_account_iban">IBAN</string>
+    <string name="add_account_name">Name</string>
+    <string name="add_account">Add</string>
+    <string name="about_tv_ibapp_version">Internet Banking App - Version 1.0</string>
+    <string name="about_tv_credits">© Pistol Georgiana Adriana</string>
+    <string name="about_tv_group">Grupa 1081</string>
+    <string name="about_tv_year">2019</string>
+    <string name="lv_account_view_new_transfer">+ NEW TRANSACTION</string>
+    <string name="add_account_err_iban">Error! Incorrect IBAN!</string>
+    <string name="add_account_err_name">Error! Incorrect name!</string>
+    <string name="add_account_err_amount">Error! Please insert the amount!</string>
+    <string name="alert_dialog_operation">Transaction Type</string>
+    <string name="validate_iban_starts_ro">RO</string>
+    <string name="add_transaction_beneficiary_iban">IBAN Beneficiary</string>
+    <string name="add_transaction_named_beneficiary">Named Beneficiary</string>
+    <string name="add_transaction_amount">Amount</string>
+    <string name="add_transaction_description">Description</string>
+    <string name="add_transaction_done">Done</string>
+    <string name="transaction_no_money_error">You don\'t have enough money!</string>
+    <string name="transaction_lv_to">To:</string>
+    <string name="about_toast_ratingbar_feedback">Thanks for your feedback!</string>
+    <string name="alert_dialog_title">My transactions</string>
+    <string name="alert_dialog_export_to_csv">Export to .csv</string>
+    <string name="transactions_show_statistics">Show statistics</string>
+    <string name="preference_theme_title">Theme mode</string>
+    <string name="preference_theme_summary">Select if you would like more themes in app</string>
+    <string name="preference_design">Design</string>
+    <string name="preference_other_settings">Other settings</string>
+    <string name="preference_crash_report">Allow crash report</string>
+    <string name="preference_bug_fix">Let us know app bugs</string>
+
+    <string-array name="add_account_currency">
+        <item>EUR</item>
+        <item>RON</item>
+        <item>GBP</item>
+        <item>USD</item>
+    </string-array>
+
+    <string-array name="pick_new_operation">
+        <item>Transfer</item>
+        <item>Withdrawal</item>
+        <item>Payments</item>
+        <item>Deposit</item>
+        <item>Receipts</item>
+    </string-array>
+
+    <string-array name="profile_charges">
+        <item>Bank ATM -> 0% - 0.25%</item>
+        <item>Other banks ATM -> 0.50% + 5 RON</item>
+        <item>Query balance -> 2 RON</item>
+    </string-array>
+
+    <string-array name="profile_interests">
+        <item>• Fixed-term deposits</item>
+        <item>1 month -> 0.15%</item>
+        <item>3 months -> 0.45%</item>
+        <item>12 months -> 1.50%</item>
+        <item>• Sight deposits</item>
+        <item>1,000 - 9,999 -> 1.10%</item>
+        <item>10,000 - 99,999 -> 1.15%</item>
+        <item>100,000 - 499,999 -> 1.25%</item>
+        <item>> 500,000 -> 1.50%</item>
+    </string-array>
+
+    <string-array name="contex_menu_items">
+        <item>View transactions</item>
+        <item>Delete</item>
+    </string-array>
+
+    <string-array name="banks_spn_type">
+        <item>Sediu central</item>
+        <item>Sucursala</item>
+        <item>Partener</item>
+    </string-array>
+
+    <string-array name="banks_dialog_picker">
+        <item>Gallery</item>
+        <item>Camera</item>
+    </string-array>
+
+    <string name="profile_locations_maps">Locations</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="preference_key_theme">themeMode</string>
+    <string name="preference_bug_key">bugFixKey</string>
+    <string name="preference_tv_suggestions">Share your suggestions</string>
+    <string name="preference_tiv_here">Your suggestions here</string>
+    <string name="preference_btn_ok">OK</string>
+    <string name="profile_banks">Banks</string>
+    <string name="banks_et_bic">BIC</string>
+    <string name="banks_et_name">Name</string>
+    <string name="banks_et_country">Country</string>
+    <string name="banks_btn_text_cancel">Cancel</string>
+    <string name="banks_btn_text_delete">Delete</string>
+    <string name="banks_firebase_delete">Please select a bank!</string>
+    <string name="profile_dialog_source">Select source</string>
+    <string name="serach_btn_cancel">Cancel</string>
+    <string name="search_export_txt">Export to .txt</string>
+    <string name="search_txt_exported">Exported</string>
+    <string name="transaction_click_option">Select option</string>
+    <string name="transaction_click_edit">Edit</string>
+    <string name="transaction_click_delete">Delete</string>
+    <string name="transaction_click_cancel">Cancel</string>
+</resources>
